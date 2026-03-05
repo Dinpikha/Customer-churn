@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.streamlit/secrets.toml
+
+# Data (large files — use DVC or Git LFS)
+data/*.csv
+data/*.parquet
+
+# Models (large — use DVC or MLflow)
+models/*.pkl
+models/*.png
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
